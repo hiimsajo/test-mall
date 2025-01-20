@@ -1,6 +1,6 @@
 <h1>Try it</h1>
 <div  align="center">
-  <img width="24%" src="client/src/assets/logo/home_logo.png" alt="LOGO">
+  <img width="24%" src="https://private-user-images.githubusercontent.com/125221013/404962818-0e82cfd5-5e11-4f07-9deb-3f440901f300.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc0MDM2NDMsIm5iZiI6MTczNzQwMzM0MywicGF0aCI6Ii8xMjUyMjEwMTMvNDA0OTYyODE4LTBlODJjZmQ1LTVlMTEtNGYwNy05ZGViLTNmNDQwOTAxZjMwMC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQyMDAyMjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MDg0ODhjNDdiNDQ3MzRjNTlkMWUyZGIxNzNkNzRlZDA3NDAxYjgzMWFmNDJjNjk1ZjVkMTVhYzI5MTM2ODM2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.cQGnwkjnds1_x-zqQNXA6fJkDsszN0ZbxkuW3gGjsNs" alt="LOGO">
 </div>
 </br>
 <h3 align="center">Spring 단기심화 2기 Ch.3 프로젝트</h3>
@@ -32,7 +32,7 @@
 | [handyejee](https://github.com/handyejee) | [syhan7516](https://github.com/syhan7516) | [Hany-Kim](https://github.com/Hany-Kim) |     [Namgyu11](https://github.com/Namgyu11)    | [hiimsajo](https://github.com/hiimsajo) | 
 |<p align="left">- 알림기능 <br/>- 아키텍쳐 설계 및 초기구성<br/>- 일정관리</p>|<p align="left">- 리뷰기능<br/>- 통계기능</p>|<p align="left">- 상품, 이미지 업로드 기능<br/>- 체험단 신청기능<br/>- AWS 배포</p>|<p align="left">- 체험단 모집<br/>- 추가예정<br/>- 추가예정</p>|<p align="left">- 사용자 기능<br/>- JWT 기반 인증 기능<br/>- Gateway 설정</p>|
 
-## 📺 설계도
+## 📺 프로젝트 설계
 ### API 명세서</br>
 <img alt="" src="https://private-user-images.githubusercontent.com/125221013/404962681-733ef5a0-9df3-4194-ad59-fcf1af5ca3eb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczOTQxOTAsIm5iZiI6MTczNzM5Mzg5MCwicGF0aCI6Ii8xMjUyMjEwMTMvNDA0OTYyNjgxLTczM2VmNWEwLTlkZjMtNDE5NC1hZDU5LWZjZjFhZjVjYTNlYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQxNzI0NTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMTg1YzYyMWI1NmM0NzdkZDVjZWJlMzY2M2M3MDY2OGRmZTViM2I0NWE4NDQxMWRjNDAwNTA4NWE2NzE5NjQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZnHyFR29QnMt613zXPn4VN9UZwHyzJHqafeR6bcA6Ms"  width="800">
 
@@ -53,7 +53,7 @@
 
 
 ## ➡️ User flow
-<img width="2800" alt="User flow" src="https://private-user-images.githubusercontent.com/125221013/404963411-976e9fc0-0b83-41e3-bebc-8306c2e863d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczOTUwNzksIm5iZiI6MTczNzM5NDc3OSwicGF0aCI6Ii8xMjUyMjEwMTMvNDA0OTYzNDExLTk3NmU5ZmMwLTBiODMtNDFlMy1iZWJjLTgzMDZjMmU4NjNkNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQxNzM5MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYTc4OTU5MjZmNWUwYzg4MjkzYjlmNGM5MzNkNWM0M2YzN2U1OGZjYjYyN2VmYTZiM2I1YWZmOGNlODYyOTdmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.sBxVaUFPD9YE0lMQEz4ZMX1FQarjfypjOBoiv8MVImI">
+<img width="2800" alt="User flow" src="https://private-user-images.githubusercontent.com/125221013/404994058-a6dfbcb8-ed89-4e9c-a464-9a2389e06d64.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc0MDM2NDMsIm5iZiI6MTczNzQwMzM0MywicGF0aCI6Ii8xMjUyMjEwMTMvNDA0OTk0MDU4LWE2ZGZiY2I4LWVkODktNGU5Yy1hNDY0LTlhMjM4OWUwNmQ2NC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQyMDAyMjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZDMzNzNlMDU4MGEzOWYzZDI4YWRmYjRmNTMwOTc5NTQ3ZDNjODZmNDIxODg4ZDFkZThlYWY3ZDRiNTkwZDJkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ul2hjvZVn_qjTQXNMh10BpWWp1wBDjfVWlyR3te1YQI">
 
 </br>
 
