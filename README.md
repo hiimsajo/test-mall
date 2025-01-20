@@ -1,6 +1,6 @@
 <h1>Try it</h1>
 <div  align="center">
-  <img width="24%" src="https://github.com/user-attachments/assets/af4b8e34-89aa-41ae-bff3-48d702d711b8" alt="LOGO">
+  <img width="45%" src="https://github.com/user-attachments/assets/af4b8e34-89aa-41ae-bff3-48d702d711b8" alt="LOGO">
 </div>
 </br>
 <h3 align="center">Spring 단기심화 2기 Ch.3 프로젝트</h3>
