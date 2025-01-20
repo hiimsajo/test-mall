@@ -1,6 +1,6 @@
 <h1>Try it</h1>
 <div  align="center">
-  <img width="24%" src="https://private-user-images.githubusercontent.com/125221013/404998478-b2992947-940a-40b5-a424-4f8005d95f71.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc0MDUxNDcsIm5iZiI6MTczNzQwNDg0NywicGF0aCI6Ii8xMjUyMjEwMTMvNDA0OTk4NDc4LWIyOTkyOTQ3LTk0MGEtNDBiNS1hNDI0LTRmODAwNWQ5NWY3MS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyMFQyMDI3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZmI5ZmY0ZGMyZDkxNzk4ZDcxYjAxNTg3YzkwYWM5YzZjYWQ2Y2UxOGVjODE2NThjODQxMzQ4MzYwZjZkNmI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PMOtGqy8ntiBhGE8HTTk8TD_0JhYsWHsIY2fp1K4DYQ" alt="LOGO">
+  <img width="24%" src="https://github.com/user-attachments/assets/b2992947-940a-40b5-a424-4f8005d95f71" alt="LOGO">
 </div>
 </br>
 <h3 align="center">Spring 단기심화 2기 Ch.3 프로젝트</h3>
