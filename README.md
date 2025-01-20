@@ -53,7 +53,7 @@
 
 
 ## ➡️ User flow
-<img width="2800" alt="User flow" src="[client/src/assets/readme/userflow.png](https://github.com/user-attachments/assets/cd22c0d1-8f4a-44e7-aea0-35a53ebd0f64)">
+<img width="2800" alt="User flow" src="https://github.com/user-attachments/assets/cd22c0d1-8f4a-44e7-aea0-35a53ebd0f64">
 
 </br>
 
