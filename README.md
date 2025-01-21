@@ -17,8 +17,7 @@
 - **팀원 :** 손예지(리더), 신영한(부리더), 김주한, 하남규, 조승아
 - **팀노션 링크 :** [💁🏻 노션 링크](https://teamsparta.notion.site/1-1-1672dc3ef51480ceb16ff07841605e7b)
 - **배포 링크 :** [📮 링크](http://gateway-lb-1883933206.ap-northeast-2.elb.amazonaws.com)
-
----
+  
 
 ## 🥅 프로젝트 목표
 1. **대규모 트래픽 대응**
@@ -41,8 +40,6 @@
 ## KEY Summary
 
 ### 🍁 **성능 개선 : 최저가 상품 조회 성능, Redis 도입으로 3배 이상 향상**
-
----
 
 1. **한 줄 요약**  
    - Redis 도입으로 기존 DB 조회보다 **348% 성능 개선**  
@@ -70,8 +67,6 @@
 
 ### 🍁 **트러블 슈팅 : LazyConnectionDataSourceProxy - 불필요한 커넥션 점유 해결**
 
----
-
 1. **배경**  
    - **스프링 배치 5버전 도입**  
      - 정산은 실시간이 아닌, 이용자가 적은 시간에 일괄 처리하도록 배치 선택  
@@ -94,7 +89,6 @@
 
    - 이를 통해 **실제 DB 요청 시에만 커넥션 점유**로 불필요한 리소스 낭비를 해결
 
----
 
 ## 📺 프로젝트 설계
 ### 🔗API 명세서 확인하기</br> -> 링크
@@ -127,7 +121,6 @@
 
 </br>
 
----
 
 ## 🔧Tech Stack
 ### Tools
@@ -140,7 +133,6 @@
 | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/3a2dd96d-0989-4ce0-b178-84bf23b2e60c" alt="PostgreSQL logo" width="65" height="65" /></div>| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="55"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/6f1f5691-2609-4e77-a628-e84f3a54854fc" alt="Kafka logo" width="65" height="65" /></div>    |    <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/88e14b10-c73e-491c-8f9a-dd43abf49b8f" alt="Redis logo" width="65" height="65" /></div>   |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/66d6cfd6-6b67-4ecc-b9f9-5ea6c7cb4352" alt="Zipkin logo" width="65" height="65" /></div>     |
 <br/>
 
----
 
 ## 🌲 Git
 ### Branch
@@ -156,7 +148,6 @@
 |   "add: ~ "    | 파일이나 코드 추가 |
 |  "remove: ~ "  | 파일을 삭제만 한 경우 |
 
----
 
 ## 📁 프로젝트 파일 구조
 1. 마이크로서비스 아키텍처 구조<br>
@@ -199,7 +190,6 @@ com.trillionares.tryit.[service-name]
     ├─ controller       // 컨트롤러
     └─ dto             // API 요청/응답 DTO
 ```
----
 
 ## 역할 분담 및 협업 방식
 | 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
@@ -208,14 +198,12 @@ com.trillionares.tryit.[service-name]
 | [handyejee](https://github.com/handyejee) | [syhan7516](https://github.com/syhan7516) | [Hany-Kim](https://github.com/Hany-Kim) |     [Namgyu11](https://github.com/Namgyu11)    | [hiimsajo](https://github.com/hiimsajo) | 
 |<p align="left">- 알림기능 <br/>- 아키텍쳐 설계 및 초기구성<br/>- 일정관리</p>|<p align="left">- 리뷰기능<br/>- 통계기능</p>|<p align="left">- 상품, 이미지 업로드 기능<br/>- 체험단 신청기능<br/>- AWS 배포</p>|<p align="left">- 체험단 모집<br/>- 모집상태 관리</p>|<p align="left">- 사용자 기능<br/>- JWT 기반 인증 기능<br/>- Gateway 설정</p>|
 
----
 
 ### **Ground Rule**
 
 🍁 **문제 발생 시 즉시 공유**  
 - 문제가 발생하면 팀원들에게 빠르게 상황을 공유하여 협력 해결.
 
----
 
 ## 성과 및 회고
 
