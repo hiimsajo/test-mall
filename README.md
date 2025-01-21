@@ -263,6 +263,7 @@
 
 ### 🔗테이블 명세서</br> 
 👉 [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=91016624#gid=91016624)
+
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 
 ### 🔗ERD</br>
@@ -273,6 +274,7 @@
 
 ### 🔗WBS 일정관리</br> 
 👉 [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861)
+
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 
 ### ➡️User flow
