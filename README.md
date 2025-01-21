@@ -46,7 +46,10 @@
 
 ## 📺 프로젝트 설계
 ### API 명세서</br>
-<img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+<details>
+  <summary>사용자 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
 
 ### 테이블 명세서</br>
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
