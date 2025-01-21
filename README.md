@@ -1,4 +1,4 @@
-<h1><div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div>Try it</h1>
+<h1><div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/6e5beeca-cb41-49c3-ae6d-3e29f8861b00" alt="icon" width="65" height="65" /></div>Try it</h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/0d2b125d-4a4f-4c75-80ef-04c7ddea53ee" alt="LOGO">
 </div>
