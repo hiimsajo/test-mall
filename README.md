@@ -32,6 +32,18 @@
 | [handyejee](https://github.com/handyejee) | [syhan7516](https://github.com/syhan7516) | [Hany-Kim](https://github.com/Hany-Kim) |     [Namgyu11](https://github.com/Namgyu11)    | [hiimsajo](https://github.com/hiimsajo) | 
 |<p align="left">- 알림기능 <br/>- 아키텍쳐 설계 및 초기구성<br/>- 일정관리</p>|<p align="left">- 리뷰기능<br/>- 통계기능</p>|<p align="left">- 상품, 이미지 업로드기능<br/>- 체험단 신청기능<br/>- AWS 배포</p>|<p align="left">- 체험단 모집<br/>- 모집 상태 관리, 정리</p>|<p align="left">- 사용자기능<br/>- JWT 기반 인증기능<br/>- Gateway 설정</p>|
 
+
+## 주요 기능
+
+<details>
+  <summary>1. 회원 관리</summary>
+  
+  - 회원가입
+  - 로그인
+  - 비밀번호 재설정
+</details>
+
+
 ## 📺 프로젝트 설계
 ### API 명세서</br>
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
