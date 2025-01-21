@@ -1,4 +1,4 @@
-<h1>Try it</h1>
+<h1><img alt="예지" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QEFTESGP-e2b23afd15a7-512" height="100" width="100">Try it</h1>
 <div  align="center">
   <img width="45%" src="https://github.com/user-attachments/assets/af4b8e34-89aa-41ae-bff3-48d702d711b8" alt="LOGO">
 </div>
