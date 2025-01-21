@@ -63,6 +63,7 @@
 
    **결론:** Redis 도입을 결정하여 성능 및 효율성을 크게 개선  
 
+
 ### 🍁 **트러블 슈팅 : LazyConnectionDataSourceProxy - 불필요한 커넥션 점유 해결**
 
 1. **배경**  
@@ -89,7 +90,7 @@
 
 
 ## 📺 프로젝트 설계
-### 🔗API 명세서 확인하기</br> -> 링크
+### 🔗API 명세서 확인하기</br> -> [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=1840269664#gid=1840269664)
 <details>
   <summary>사용자 API</summary>
   <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
@@ -99,7 +100,7 @@
   <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 </details>
 
-### 🔗테이블 명세서</br> -> 링크
+### 🔗테이블 명세서</br> -> [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=91016624#gid=91016624)
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 
 ### 🔗ERD</br>
@@ -111,13 +112,14 @@
 ### 🔗카프카 구조도</br>
 <img alt="" src="https://github.com/user-attachments/assets/346a7fe1-f7a3-4bc4-abb4-13b28b3a8f66"  width="800">
 
-### 🔗WBS 일정관리</br> -> 링크
+### 🔗WBS 일정관리</br> -> [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861)
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 
 ### ➡️User flow
 <img width="2800" alt="User flow" src="https://github.com/user-attachments/assets/cd22c0d1-8f4a-44e7-aea0-35a53ebd0f64">
 
 </br>
+
 
 
 ## 🔧Tech Stack
