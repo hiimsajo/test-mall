@@ -50,9 +50,68 @@
   <summary>사용자 API</summary>
   <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 </details>
+<details>
+  <summary>상품 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 모집 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 신청 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 모집 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>리뷰 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>통계 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>알림 API</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
 
 ### 테이블 명세서</br>
-<img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+<details>
+  <summary>사용자 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>상품 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 모집 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 신청 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>체험단 모집 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>리뷰 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>통계 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
+<details>
+  <summary>알림 테이블</summary>
+  <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
+</details>
 
 ### ERD</br>
 <img alt="" src="https://github.com/user-attachments/assets/0afea585-b5d6-4c56-a7a2-7341f1075f67"  width="800">
