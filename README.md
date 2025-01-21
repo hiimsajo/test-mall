@@ -1,9 +1,9 @@
-<h1> ## Try it</h1>
+<h1>Try it</h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/b2992947-940a-40b5-a424-4f8005d95f71" alt="LOGO">
 </div>
 </br>
-<h3 align="center"> ## Try it 선착순 체험단 플랫폼</h3>
+<h3 align="center"> Try it 선착순 체험단 플랫폼</h3>
 
 `Try-it` 서비스는 **대규모 트래픽 환경**에서도 안정적으로 작동하는 **MSA 기반**의 **선착순** 체험단 플랫폼 입니다. 
 새로운 제품을 출시하는 기업과 체험하고 싶은 사용자를 **연결하는 서비스**를 만들었습니다. </br>
@@ -38,6 +38,8 @@
    - 대규모 트래픽이 예상되는 인기 체험단 모집 시 신청자 대기열을 안정적으로 관리
    - 중복 및 데이터 손실을 방지하는 Kafka Batch Listener 구현.
   
+<br>
+
 ## 🗝️ KEY Summary
 
 ### 🍁 **성능 개선 : 최저가 상품 조회 성능, Redis 도입으로 3배 이상 향상**
@@ -88,6 +90,7 @@
 
    - 이를 통해 **실제 DB 요청 시에만 커넥션 점유**로 불필요한 리소스 낭비를 해결
 
+<br>
 
 ## 🏢 인프라 아키텍처 & 적용 기술
 
@@ -133,6 +136,7 @@
 
 </details>
 
+<br>
 
 ## 📺 프로젝트 설계
 ### 🔗API 명세서 확인하기</br> -> [링크](https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=1840269664#gid=1840269664)
@@ -161,7 +165,7 @@
 <img width="2800" alt="User flow" src="https://github.com/user-attachments/assets/cd22c0d1-8f4a-44e7-aea0-35a53ebd0f64">
 
 </br>
-<br><br><br>
+<br>
 
 ## 🔧Tech Stack
 ### Tools
@@ -173,7 +177,7 @@
 | :---: | :---: | :---: | :---: | :---: | :---: |-------|-------|--------|
 | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/3a2dd96d-0989-4ce0-b178-84bf23b2e60c" alt="PostgreSQL logo" width="65" height="65" /></div>| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="55"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/6f1f5691-2609-4e77-a628-e84f3a54854fc" alt="Kafka logo" width="65" height="65" /></div>    |    <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/88e14b10-c73e-491c-8f9a-dd43abf49b8f" alt="Redis logo" width="65" height="65" /></div>   |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/66d6cfd6-6b67-4ecc-b9f9-5ea6c7cb4352" alt="Zipkin logo" width="65" height="65" /></div>     |
 <br/>
-
+<br>
 
 ## 🌲 Git
 ### Branch
@@ -189,6 +193,7 @@
 |   "add: ~ "    | 파일이나 코드 추가 |
 |  "remove: ~ "  | 파일을 삭제만 한 경우 |
 
+<br>
 
 ## 📁 프로젝트 파일 구조
 1. 마이크로서비스 아키텍처 구조<br>
@@ -231,6 +236,7 @@ com.trillionares.tryit.[service-name]
     ├─ controller       // 컨트롤러
     └─ dto             // API 요청/응답 DTO
 ```
+<br>
 
 ## 역할 분담 및 협업 방식
 | 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
@@ -245,6 +251,7 @@ com.trillionares.tryit.[service-name]
 🍁 **문제 발생 시 즉시 공유**  
 - 문제가 발생하면 팀원들에게 빠르게 상황을 공유하여 협력 해결.
 
+<br>
 
 ## 성과 및 회고
 
