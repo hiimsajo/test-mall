@@ -100,8 +100,7 @@
 
 위 아키텍처는 **MSA 기반의 이커머스 서비스** 구조를 나타냅니다.  
 각 모듈은 Redis, Kafka를 통해 통신하며, Docker로 컨테이너화되어 CI/CD를 통해 자동 배포됩니다.
-
----
+<br>
 
 <details>
 <summary><b>📦 적용 기술 상세보기</b></summary>
