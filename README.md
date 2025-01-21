@@ -63,8 +63,6 @@
 
    **결론:** Redis 도입을 결정하여 성능 및 효율성을 크게 개선  
 
----
-
 ### 🍁 **트러블 슈팅 : LazyConnectionDataSourceProxy - 불필요한 커넥션 점유 해결**
 
 1. **배경**  
