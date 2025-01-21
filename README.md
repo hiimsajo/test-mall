@@ -1,6 +1,6 @@
-<h1>Try it</h1>
+<h1><div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div>Try it</h1>
 <div  align="center">
-  <img width="50%" src="https://github.com/user-attachments/assets/b2992947-940a-40b5-a424-4f8005d95f71" alt="LOGO">
+  <img width="50%" src="https://github.com/user-attachments/assets/0d2b125d-4a4f-4c75-80ef-04c7ddea53ee" alt="LOGO">
 </div>
 </br>
 <h3 align="center"> Try it 선착순 체험단 플랫폼</h3>
