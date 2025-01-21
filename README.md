@@ -275,7 +275,7 @@
 <img alt="" src="https://github.com/user-attachments/assets/b3b42806-0558-4764-98ab-35a2a1400e46"  width="800">
 
 ### ➡️User flow
-<img width="2800" alt="https://github.com/user-attachments/assets/4e7a36d7-1165-4095-afed-27e6fa886069">
+<img width="2800" alt="User flow" src="https://github.com/user-attachments/assets/4e7a36d7-1165-4095-afed-27e6fa886069">
 
 </br>
 <br><br>
