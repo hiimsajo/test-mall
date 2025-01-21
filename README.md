@@ -1,9 +1,9 @@
-<h1>Try it</h1>
+<h1> ## Try it</h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/b2992947-940a-40b5-a424-4f8005d95f71" alt="LOGO">
 </div>
 </br>
-<h3 align="center">Try it 선착순 체험단 플랫폼</h3>
+<h3 align="center"> ## Try it 선착순 체험단 플랫폼</h3>
 
 `Try-it` 서비스는 **대규모 트래픽 환경**에서도 안정적으로 작동하는 **MSA 기반**의 **선착순** 체험단 플랫폼 입니다. 
 새로운 제품을 출시하는 기업과 체험하고 싶은 사용자를 **연결하는 서비스**를 만들었습니다. </br>
@@ -38,7 +38,7 @@
    - 대규모 트래픽이 예상되는 인기 체험단 모집 시 신청자 대기열을 안정적으로 관리
    - 중복 및 데이터 손실을 방지하는 Kafka Batch Listener 구현.
   
-## KEY Summary
+## 🗝️ KEY Summary
 
 ### 🍁 **성능 개선 : 최저가 상품 조회 성능, Redis 도입으로 3배 이상 향상**
 
