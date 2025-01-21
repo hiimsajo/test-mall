@@ -210,7 +210,7 @@
 
 </details>
 
----
+<br>
 
 <details>
 <summary><b>🔩 Jpa로 배치 처리 시 더티체킹 문제</b></summary>
