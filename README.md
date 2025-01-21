@@ -18,8 +18,7 @@
 - **팀노션 링크 :** [💁🏻 노션 링크](https://teamsparta.notion.site/1-1-1672dc3ef51480ceb16ff07841605e7b)
 - **배포 링크 :** [📮 링크](http://gateway-lb-1883933206.ap-northeast-2.elb.amazonaws.com)
 
-## 📝 프로젝트 개요
-`Try-it` 서비스는 새로운 제품을 출시하는 기업과 체험하고 싶은 사용자를 연결하는 선착순 체험단 플랫폼 입니다.</br>
+---
 
 ## 🥅 프로젝트 목표
 1. **대규모 트래픽 대응**
@@ -95,6 +94,8 @@
 
    - 이를 통해 **실제 DB 요청 시에만 커넥션 점유**로 불필요한 리소스 낭비를 해결
 
+---
+
 ## 📺 프로젝트 설계
 ### 🔗API 명세서 확인하기</br> -> 링크
 <details>
@@ -126,6 +127,8 @@
 
 </br>
 
+---
+
 ## 🔧Tech Stack
 ### Tools
 | Git | Github | Slack |
@@ -136,6 +139,8 @@
 | :---: | :---: | :---: | :---: | :---: | :---: |-------|-------|--------|
 | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/3a2dd96d-0989-4ce0-b178-84bf23b2e60c" alt="PostgreSQL logo" width="65" height="65" /></div>| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="55"/></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="65" height="65" /></div> | <img alt="spring logo" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" height="50" width="50" > | <img alt="spring-boot logo" src="https://t1.daumcdn.net/cfile/tistory/27034D4F58E660F616" width="65" height="65" > |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/6f1f5691-2609-4e77-a628-e84f3a54854fc" alt="Kafka logo" width="65" height="65" /></div>    |    <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/88e14b10-c73e-491c-8f9a-dd43abf49b8f" alt="Redis logo" width="65" height="65" /></div>   |   <div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/66d6cfd6-6b67-4ecc-b9f9-5ea6c7cb4352" alt="Zipkin logo" width="65" height="65" /></div>     |
 <br/>
+
+---
 
 ## 🌲 Git
 ### Branch
@@ -150,6 +155,8 @@
 | "refactor: ~ " | 기능이나 성능 개선 및 수정 |
 |   "add: ~ "    | 파일이나 코드 추가 |
 |  "remove: ~ "  | 파일을 삭제만 한 경우 |
+
+---
 
 ## 📁 프로젝트 파일 구조
 1. 마이크로서비스 아키텍처 구조<br>
@@ -192,6 +199,8 @@ com.trillionares.tryit.[service-name]
     ├─ controller       // 컨트롤러
     └─ dto             // API 요청/응답 DTO
 ```
+---
+
 ## 역할 분담 및 협업 방식
 | 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
 | :---: | :---: | :---: |:---:| :---: |
@@ -206,6 +215,7 @@ com.trillionares.tryit.[service-name]
 🍁 **문제 발생 시 즉시 공유**  
 - 문제가 발생하면 팀원들에게 빠르게 상황을 공유하여 협력 해결.
 
+---
 
 ## 성과 및 회고
 
