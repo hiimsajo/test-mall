@@ -1,4 +1,4 @@
-<h1><div style="display: flex; align-items: flex-start;"><img src="https://github.com/user-attachments/assets/e6ed9501-3146-449e-a6c1-f76236d2b4d4" alt="icon" width="65" height="65" /></div>Try it</h1>
+<h1><img src="https://github.com/user-attachments/assets/e6ed9501-3146-449e-a6c1-f76236d2b4d4" alt="icon" width="65" height="65" />Try it</h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/0d2b125d-4a4f-4c75-80ef-04c7ddea53ee" alt="LOGO">
 </div>
