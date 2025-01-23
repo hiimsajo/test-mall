@@ -180,7 +180,7 @@
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> 
 <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
 <details>
-  <summary> 👉기술 스텍 선택 이유 자세히 확인하기 </summary>
+  <summary> 👉기술 선택 이유 자세히 확인하기 </summary>
 
 | **항목** | **설명** |
 | --- | --- |
