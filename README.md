@@ -292,7 +292,7 @@ com.trillionares.tryit.[service-name]
 
 ### 잘된 점
 - **제목**
-  - 내용
+  - 그거슨
 
 ---
 
