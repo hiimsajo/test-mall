@@ -165,7 +165,7 @@
 <details>
   <summary>🔗WBS 일정관리</summary>
   <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861">➡️ 확인하기</a>
-  <img alt="wbs" src="https://github.com/user-attachments/assets/8259f1a5-7ced-43b8-bed5-8fb24526480d" width="600"
+  <img alt="wbs" src="https://github.com/user-attachments/assets/8259f1a5-7ced-43b8-bed5-8fb24526480d" width="600">
 </details>
 <br><br>
 
