@@ -26,32 +26,6 @@
  
 3. **자주 조회되는 정보들은 캐싱을 통해 데이터베이스의 부하를 감소시킵니다.**
 
-<br>
-
-
-### 🍁 **트러블 슈팅 : LazyConnectionDataSourceProxy - 불필요한 커넥션 점유 해결**
-
-1. **배경**
-  - **스프링 배치 5버전 도입**
-    - 정산은 실시간이 아닌, 이용자가 적은 시간에 일괄 처리하도록 배치 선택
-    - 메인 DB와 배치 메타데이터 DB 분리 필요
-  - **배치 메타데이터 테이블 생성 필수화**
-    - 메타데이터 전용 DB를 나누는 구조로 전환
-  - **멀티 DataSource 구성**
-    - 메인 DataSource와 배치 DataSource로 데이터베이스 모듈 구분
-
-2. **문제**
-  - 실제 DB 요청 없이도 불필요한 커넥션 점유 발생
-    - 스프링은 트랜잭션 진입 시 커넥션 풀에서 커넥션을 점유
-    - 멀티 DataSource로 인해 두 DataSource 모두 커넥션 점유
-
-3. **해결 방안**
-  - **LazyConnectionDataSourceProxy 클래스 사용**
-    - 실제 DB 요청 전까지 커넥션 점유를 지연시키는 프록시 DataSource 활용
-
-   ![LazyConnectionDataSourceProxy 이미지]
-
-  - 이를 통해 **실제 DB 요청 시에만 커넥션 점유**로 불필요한 리소스 낭비를 해결
 
 <br>
 
@@ -197,13 +171,31 @@
 
 ## 🔧Tech Stack
 ### Tools
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white"> <img src="https://img.shields.io/badge/Apache Kafka-231F20?style=for-the-badge&logo=Apache Kafka&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
-<img src="https://img.shields.io/badge/Zipkin-FF9E0F?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=Grafana&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white"> <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"><img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> <img src="https://img.shields.io/badge/Amazon ECS-FF9900?style=for-the-badge&logo=Amzon ECS&logoColor=white">
+### 🔗 Infrastructure
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"> 
+<img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white"> 
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> 
+<img src="https://img.shields.io/badge/Amazon ECS-FF9900?style=for-the-badge&logo=Amazon ECS&logoColor=white">
+
+### 💻 Backend
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> 
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> 
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white"> 
+<img src="https://img.shields.io/badge/Apache Kafka-231F20?style=for-the-badge&logo=Apache Kafka&logoColor=white"> 
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"> 
+<img src="https://img.shields.io/badge/Zipkin-FF9E0F?style=for-the-badge&logoColor=white"> 
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=Grafana&logoColor=white">
+
+### 🛠 Tools
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> 
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> 
+<img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white"> 
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
 <details>
-  <summary> 👉적용 기술 자세히 확인하기 </summary>
+  <summary> 👉기술 스텍 선택 이유 자세히 확인하기 </summary>
 | **항목** | **설명** |
 | --- | --- |
 | **Redis** | * 메모리에서 직접 데이터를 가져오기 때문에 조회 속도가 빨라서 응답속도와 데이터베이스에 쌓이는 부하를 줄이고자 사용<br>* MSA에서 서비스간 느슨한 결합과 확장성을 위해 사용<br>* 한정된 인원이 당첨이 보장될 수 있도록 Redis Pub/Sub 및 분산락 사용 |
