@@ -236,15 +236,15 @@
 
 <details>
   <summary>🔗테이블 명세서</summary>
-  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=91016624#gid=91016624">➡️ 확인하기</a>
-
+  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=91016624#gid=91016624">➡️ 전체 테이블 명세서 확인하기</a>
+ <br>
   <img alt="User flow" src="https://github.com/user-attachments/assets/8d46f6f5-4836-481c-87a8-41f043827da7">
 </details>
 
 <details>
   <summary>🔗API 명세서</summary>
-  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=1840269664#gid=1840269664">➡️ 확인하기</a>
-
+  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=1840269664#gid=1840269664">➡️ 전체 API 명세서 확인하기</a>
+  <br>
   <img alt="User flow" src="https://github.com/user-attachments/assets/e3505853-95c9-48ab-9d42-f65360f1d2a9">
 </details>
 
@@ -255,7 +255,8 @@
 
 <details>
   <summary>🔗WBS 일정관리</summary>
-  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861">➡️ 확인하기</a>
+  <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861">➡️ 전체 일정관리 확인하기</a>
+  <br>
   <img alt="wbs" src="https://github.com/user-attachments/assets/8259f1a5-7ced-43b8-bed5-8fb24526480d" width="600">
 </details>
 
