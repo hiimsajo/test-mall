@@ -145,7 +145,7 @@
 - **TTL 주기를 짧게 갱신**해서 TTI를 줄이고, 리소스 활용을 효율적으로 개선하여 사용자 조회 성능 향상
 - 캐싱을 적용하여 데이터베이스에 직접 가지 않고 빠르게 조회 가능
 <details>
-  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 **약 91.26% 감소** </summary>
+  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 <b>약 91.26% 감소</b> </summary>
   
   - 관련 내용: [👥사용자 조회 시 Redis 적용](https://www.notion.so/teamsparta/Redis-2b2b14a48c404da489b1dece8d11398c)
     
@@ -348,7 +348,6 @@ com.trillionares.tryit.[service-name]
 ### 잘된 점
 
 - **일정 관리가 잘 이루어짐**
-  
   - WBS로 일정관리를 한 덕분에 한눈에 팀원들의 진행 상황이 파악됨
   - 목표 달성까지 얼마나 남았는지 확인이 가능
 
@@ -357,13 +356,11 @@ com.trillionares.tryit.[service-name]
 ### 아쉬운 점
 
 - **제목**
-  
   - 내용
 ---
 
 ### 향후 계획
 
 - **사용자**
-  
   - OAuth 2.0 기반의 소셜 로그인(Google 또는 카카오톡 등을 통한 소셜 로그인) 서비스 개발
 
