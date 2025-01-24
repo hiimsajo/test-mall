@@ -292,6 +292,7 @@
 <br>
 
 ## 📁 프로젝트 파일 구조
+
 1. **마이크로서비스** 아키텍처 구조<br>
    프로젝트는 **Microservices Architecture와 DDD(Domain-Driven Design) 기반**의 Layered Architecture를 적용하여 구성되어 있습니다.
 ```text
