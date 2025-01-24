@@ -208,7 +208,7 @@
 - [@Valid, @Validated 예외 처리](https://www.notion.so/teamsparta/Valid-Validated-1d94ef6b0af542b1a93f30b98e84412a)
 - [Checked Exception 처리 개선](https://www.notion.so/teamsparta/Checked-Exception-caa55024912f4dc68c6c67a14b72e302)
 - [MultipartFile을 FeignClient로 전송하기](https://www.notion.so/teamsparta/MultipartFile-FeignClient-7df1bd0ba0ab46be80510e51c13ac130)
-- [배포 & CI/CD](https://www.notion.so/teamsparta/CI-CD-176776321f3047b5bdb8a7648af77c7d)
+- [CI/CD과정에서의 오류 해결](https://www.notion.so/teamsparta/CI-CD-176776321f3047b5bdb8a7648af77c7d)
 - [Kafka 파티션 수 늘리기](https://www.notion.so/teamsparta/Kafka-4453325ff3254da58790fe0db0a238e8)
 
 <br>
@@ -354,6 +354,6 @@ com.trillionares.tryit.[service-name]
 
 ### 향후 계획
 
-- **제목**
-  - 내용
+- **사용자**
+  - OAuth 2.0 기반의 소셜 로그인(Google 또는 카카오톡 등을 통한 소셜 로그인) 서비스 개발
 
