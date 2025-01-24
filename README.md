@@ -226,21 +226,26 @@
 <details>
   <summary> 🔗카프카 구조도 </summary>
   <img alt="kafka structure" src="https://github.com/user-attachments/assets/346a7fe1-f7a3-4bc4-abb4-13b28b3a8f66" width="600">
+  <img alt="kafka product-image" src="https://github.com/user-attachments/assets/fedde110-5969-4eb6-810c-95b7f5468582" width="700">
 </details>
 
 <details>
   <summary> 🔗ERD </summary>
-  <img alt="erd" src="https://github.com/user-attachments/assets/0afea585-b5d6-4c56-a7a2-7341f1075f67" width="600">
+  <img alt="erd" src="https://github.com/user-attachments/assets/2f800b8f-2111-4c55-88bb-0882142321b4" width="600">
 </details>
 
 <details>
   <summary>🔗테이블 명세서</summary>
   <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=91016624#gid=91016624">➡️ 확인하기</a>
+
+  <img alt="User flow" src="https://github.com/user-attachments/assets/8d46f6f5-4836-481c-87a8-41f043827da7">
 </details>
 
 <details>
   <summary>🔗API 명세서</summary>
   <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=1840269664#gid=1840269664">➡️ 확인하기</a>
+
+  <img alt="User flow" src="https://github.com/user-attachments/assets/e3505853-95c9-48ab-9d42-f65360f1d2a9">
 </details>
 
 <details>
