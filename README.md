@@ -1,6 +1,6 @@
 <h1>
   <img src="https://github.com/user-attachments/assets/e6ed9501-3146-449e-a6c1-f76236d2b4d4" alt="icon" width="65" height="65" />        
-  <span style="font-size: 3em; font-weight: bold;">Try-it</span>
+  <strong style="font-size: 4em; font-weight: 900;">TRY-IT</strong>
 </h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/0d2b125d-4a4f-4c75-80ef-04c7ddea53ee" alt="LOGO">
