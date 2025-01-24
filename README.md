@@ -239,11 +239,10 @@
   <a href="https://docs.google.com/spreadsheets/d/1Tw1WcOjfr9_PxjtonXc4OV4tweI1FBCfwA45Lor7rYE/edit?gid=2096235861#gid=2096235861">➡️ 확인하기</a>
   <img alt="wbs" src="https://github.com/user-attachments/assets/8259f1a5-7ced-43b8-bed5-8fb24526480d" width="600">
 </details>
-<br><br>
 
 <br>
 
-## 역할 분담 및 협업 방식
+## 🤝 역할 분담 및 협업 방식
 | 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
 | :---: | :---: | :---: |:---:| :---: |
 | <img alt="예지" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QEFTESGP-e2b23afd15a7-512" height="100" width="100"> | <img alt="영한" src="https://ca.slack-edge.com/T06B9PCLY1E-U07S875EUBV-g9ae29003de3-512" height="100" width="100"> | <img alt="주한" src="https://ca.slack-edge.com/T06B9PCLY1E-U06QUQQ5UU8-f0cd5f6b2a58-512" height="100" width="100"> | <img alt="남규" src="https://ca.slack-edge.com/T06B9PCLY1E-U07RKNHN003-db789eae7cdc-512" height="100" width="100"> | <img alt="승아" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QQLBVDDJ-1001a73273bb-512" height="100" width="100"> |
