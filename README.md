@@ -138,7 +138,7 @@
 - TTL 주기를 짧게 갱신해서 TTI를 줄이고, 리소스 활용을 효율적으로 개선하여 사용자 조회 성능 향상
 - 캐싱을 적용하여 데이터베이스에 직접 가지 않고 빠르게 조회 가능
 <details>
-  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 약 91.26% 감소 </summary>
+  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 약 **91.26% 감소** </summary>
   
   - 관련 내용: [👥사용자 조회 시 Redis 적용](https://www.notion.so/teamsparta/Redis-2b2b14a48c404da489b1dece8d11398c)
     
@@ -147,20 +147,47 @@
 ---
 
 ### **Redis TTL 기반 체험단 모집 상태 관리**
-- 모집 시작 및 종료 시점을 자동으로 관리하도록 Redis TTL 기능 활용해 모집 상태 관리 최적화
+- **모집 상태 자동화**: 모집 시작 및 종료 시점을 자동으로 관리하도록 Redis TTL 기능 활용해 모집 상태 관리 최적화 ****
+- **시스템 부하 감소:** Polling 방식을 통해 TTL 만료 키만 확인함으로써 불필요한 DB 조회를 방지, Redis 메모리 기반 조회로 빠른 처리 속도 유지
+- **실시간성 확보:** Redis TTL 만료 이벤트를 활용하여 모집 상태 변경 작업을 지연 없이 수행, 모집 시작/종료 상태 전환의 정확도와 신뢰성 향상
 
 ---
 
 ### **상품 관리 관련된 개선**
-- 이미지 데이터를 DB에 저장하는데 전체 API 수행시간의 14%를 차지.
-  - Front가 있다는 가정하에 이미지 업로드 로직을 Front에서 비동기로 분리한다면,
-이미지 데이터를 DB에 저장하는데 전체 API 수행시간의 29%를 차지함.
+- **Kafka 기반 상품 등록 API 개선**
+    - 이미지 데이터를 DB에 저장하는 데 전체 API 수행시간의 약 **12%**를 차지.
+    - Front가 있다는 가정하에 이미지 업로드 수행시간을 API에서 분리한다면, 이미지 데이터를 DB에 저장하는 데 전체 API 수행시간의 약 **29%**를 차지하게 됨.
+      
+      <details>
+      <summary>이미지 데이터를 DB에 저장하는 로직 분리 전, API 수행시간</summary>
+      
+      <img alt="image" src="https://github.com/user-attachments/assets/0f5af0e8-8087-4401-85a6-c6efd1a04248" width="700">
+      
+      </details>
+
+    - 기존 이미지 데이터를 DB에 저장하는 로직은 동기적으로 처리되고 있어, 이를 Kafka 기반의 **비동기적 처리 방식으로 변경**해 분리.
+        
+        → **전체 API 수행시간 평균 약 14% 향상.**
+      
+      <details>
+      <summary>이미지 데이터를 DB에 저장하는 로직 분리 후, API 수행시간</summary>
+      
+      <img alt="image" src="https://github.com/user-attachments/assets/6076a3e2-0e5b-4cd5-886a-d8e949a5fa11" width="700">
+      
+      </details>
+
+      <img alt="image" src="https://github.com/user-attachments/assets/fedde110-5969-4eb6-810c-95b7f5468582" width="700">
+
+- **Redis TTL을 통한 캐싱 기반 상품 정보 조회**
+    - 상품 정보 조회 시 자주 조회되는 상품의 경우 **조회 성능 개선** (배포 중/배포 후 테스트)
+
 
 ---
 
 ### **QueryDSL 기반의 페이징 및 정렬 기능 구현**
 - 모든 서비스 목록 조회기능에 동적으로 조회하고 페이징 처리 적용
 - 알림 서비스 기준 알림전송상태, 사용자 ID, 기간을 동적 검색조건으로 사용하여 페이징된 알림 목록을 조회
+- 상품 서비스 기준 등록된 시점, 등록한 사람을 동적 검색조건으로 사용하여 페이징된 상품 목록을 조회
 
 <br>
 
@@ -176,6 +203,7 @@
 - [Checked Exception 처리 개선](https://www.notion.so/teamsparta/Checked-Exception-caa55024912f4dc68c6c67a14b72e302)
 - [MultipartFile을 FeignClient로 전송하기](https://www.notion.so/teamsparta/MultipartFile-FeignClient-7df1bd0ba0ab46be80510e51c13ac130)
 - [배포 & CI/CD](https://www.notion.so/teamsparta/CI-CD-176776321f3047b5bdb8a7648af77c7d)
+- [Kafka 파티션 수 늘리기](https://www.notion.so/teamsparta/Kafka-4453325ff3254da58790fe0db0a238e8)
 
 <br>
 
@@ -212,6 +240,21 @@
   <img alt="wbs" src="https://github.com/user-attachments/assets/8259f1a5-7ced-43b8-bed5-8fb24526480d" width="600">
 </details>
 <br><br>
+
+<br>
+
+## 역할 분담 및 협업 방식
+| 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
+| :---: | :---: | :---: |:---:| :---: |
+| <img alt="예지" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QEFTESGP-e2b23afd15a7-512" height="100" width="100"> | <img alt="영한" src="https://ca.slack-edge.com/T06B9PCLY1E-U07S875EUBV-g9ae29003de3-512" height="100" width="100"> | <img alt="주한" src="https://ca.slack-edge.com/T06B9PCLY1E-U06QUQQ5UU8-f0cd5f6b2a58-512" height="100" width="100"> | <img alt="남규" src="https://ca.slack-edge.com/T06B9PCLY1E-U07RKNHN003-db789eae7cdc-512" height="100" width="100"> | <img alt="승아" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QQLBVDDJ-1001a73273bb-512" height="100" width="100"> |
+| [😼handyejee](https://github.com/handyejee) | [😼syhan7516](https://github.com/syhan7516) | [😼Hany-Kim](https://github.com/Hany-Kim) | [😼Namgyu11](https://github.com/Namgyu11) | [😼hiimsajo](https://github.com/hiimsajo) | 
+|<p align="left"> 🐥리더 <br/>- 알림기능 <br/>- 아키텍쳐 설계 및 초기구성<br/>- 일정관리</p>|<p align="left">🐥부리더 <br/>- 리뷰기능<br/>- 통계기능</p>|<p align="left">🐥팀원 <br/>- 상품, 이미지 업로드 기능<br/>- 체험단 신청기능<br/>- AWS 배포</p>|<p align="left">🐥팀원 <br/>- 체험단 모집<br/>- 모집상태 관리</p>|<p align="left">🐥팀원 <br/>- 사용자 기능<br/>- JWT 기반 인증 기능<br/>- Gateway 설정</p>|
+
+
+### **Ground Rule**
+
+🍁 **문제 발생 시 즉시 공유**
+- 문제가 발생하면 팀원들에게 빠르게 상황을 공유하여 협력 해결.
 
 <br>
 
@@ -272,21 +315,6 @@ com.trillionares.tryit.[service-name]
     ├─ controller       // 컨트롤러
     └─ dto             // API 요청/응답 DTO
 ```
-<br>
-
-## 역할 분담 및 협업 방식
-| 손예지<br> | 신영한<br> | 김주한<br> | 하남규<br> | 조승아<br> |
-| :---: | :---: | :---: |:---:| :---: |
-| <img alt="예지" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QEFTESGP-e2b23afd15a7-512" height="100" width="100"> | <img alt="영한" src="https://ca.slack-edge.com/T06B9PCLY1E-U07S875EUBV-g9ae29003de3-512" height="100" width="100"> | <img alt="주한" src="https://ca.slack-edge.com/T06B9PCLY1E-U06QUQQ5UU8-f0cd5f6b2a58-512" height="100" width="100"> | <img alt="남규" src="https://ca.slack-edge.com/T06B9PCLY1E-U07RKNHN003-db789eae7cdc-512" height="100" width="100"> | <img alt="승아" src="https://ca.slack-edge.com/T06B9PCLY1E-U07QQLBVDDJ-1001a73273bb-512" height="100" width="100"> |
-| [handyejee](https://github.com/handyejee) | [syhan7516](https://github.com/syhan7516) | [Hany-Kim](https://github.com/Hany-Kim) |     [Namgyu11](https://github.com/Namgyu11)    | [hiimsajo](https://github.com/hiimsajo) | 
-|<p align="left">- 알림기능 <br/>- 아키텍쳐 설계 및 초기구성<br/>- 일정관리</p>|<p align="left">- 리뷰기능<br/>- 통계기능</p>|<p align="left">- 상품, 이미지 업로드 기능<br/>- 체험단 신청기능<br/>- AWS 배포</p>|<p align="left">- 체험단 모집<br/>- 모집상태 관리</p>|<p align="left">- 사용자 기능<br/>- JWT 기반 인증 기능<br/>- Gateway 설정</p>|
-
-
-### **Ground Rule**
-
-🍁 **문제 발생 시 즉시 공유**
-- 문제가 발생하면 팀원들에게 빠르게 상황을 공유하여 협력 해결.
-
 <br>
 
 ## 성과 및 회고
