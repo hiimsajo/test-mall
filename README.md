@@ -31,6 +31,7 @@
 
 ## 🏢 인프라 아키텍처 & 적용 기술
 
+
 ### 🗺️ 아키텍처 설계도
 <img alt="" src="https://github.com/user-attachments/assets/7f469c41-4999-444f-94cf-96441c8f1e43"  width="800">
 
