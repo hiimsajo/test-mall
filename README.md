@@ -117,7 +117,7 @@
 
 ### Kafka 기반 체험단 모집 - 신청 - 알림 이벤트 처리
 
-- Kafka를 통해 체험단 신청 이벤트를 비동기로 처리하여 시스템 부하 분산
+- Kafka를 통해 체험단 신청 이벤트를 **비동기로 처리**하여 시스템 부하 분산
 
 <details>
   <summary>신청자 정보와 체험단 정보를 포함한 이벤트 메시지 발행 및 구독</summary>
@@ -145,7 +145,7 @@
 - TTL 주기를 짧게 갱신해서 TTI를 줄이고, 리소스 활용을 효율적으로 개선하여 사용자 조회 성능 향상
 - 캐싱을 적용하여 데이터베이스에 직접 가지 않고 빠르게 조회 가능
 <details>
-  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 <strong>약 91.26% 감소</strong> </summary>
+  <summary> **캐싱 적용 후 응답시간이 458ms에서 40ms로 약 91.26% 감소** </summary>
   
   - 관련 내용: [👥사용자 조회 시 Redis 적용](https://www.notion.so/teamsparta/Redis-2b2b14a48c404da489b1dece8d11398c)
     
