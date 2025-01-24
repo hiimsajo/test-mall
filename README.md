@@ -1,9 +1,9 @@
-<h1><img src="https://github.com/user-attachments/assets/e6ed9501-3146-449e-a6c1-f76236d2b4d4" alt="icon" width="65" height="65" />     Try it</h1>
+<h1><img src="https://github.com/user-attachments/assets/e6ed9501-3146-449e-a6c1-f76236d2b4d4" alt="icon" width="65" height="65" />     Try-it</h1>
 <div  align="center">
   <img width="50%" src="https://github.com/user-attachments/assets/0d2b125d-4a4f-4c75-80ef-04c7ddea53ee" alt="LOGO">
 </div>
 </br>
-<h3 align="center"> Try it 선착순 체험단 플랫폼</h3>
+<h3 align="center"> Try-it 선착순 체험단 플랫폼</h3>
 
 `Try-it` 서비스는 **대규모 트래픽 환경**에서도 안정적으로 작동하는 **MSA 기반**의 **선착순** 체험단 플랫폼 입니다.
 새로운 제품을 출시하는 기업과 체험하고 싶은 사용자를 **연결하는 서비스**를 만들었습니다. </br>
@@ -11,7 +11,7 @@
 ---
 
 - **팀 명 :**  연봉1조
-- **프로젝트 명 :** Try it
+- **프로젝트 명 :** Try-it
 - **프로젝트 기간 :** 2025.01.02 - 2025.01.27
 - **팀원 :** 손예지(리더), 신영한(부리더), 김주한, 하남규, 조승아
 - **팀노션 링크 :** [💁🏻 노션 링크](https://teamsparta.notion.site/1-1-1672dc3ef51480ceb16ff07841605e7b)
