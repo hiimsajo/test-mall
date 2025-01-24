@@ -58,7 +58,7 @@
 
 
 <details>
-<summary>**📦 적용 기술 상세보기**</summary>
+<summary><b>📦 적용 기술 상세보기</b></summary>
 
 ### 💾 **데이터베이스 및 캐싱**
 1. **Redis**
@@ -91,7 +91,7 @@
 </details>
 
 <details>
-  <summary>**👉기술 스택 테이블 확인하기기**</summary>
+  <summary><b>👉기술 스택 테이블 확인하기</b></summary>
 
 | **항목** | **설명** |
 | --- | --- |
@@ -158,7 +158,7 @@
 - 모집 상태 자동화: 모집 시작 및 종료 시점을 자동으로 관리하도록 **Redis TTL 기능 활용**해 모집 상태 관리 최적화
 - 시스템 부하 감소: **Polling 방식**을 통해 TTL 만료 키만 확인함으로써 불필요한 DB 조회를 방지, **Redis 메모리 기반 조회**로 빠른 처리 속도 유지
 - 실시간성 확보: **Redis TTL 만료 이벤트를 활용**하여 모집 상태 변경 작업을 지연 없이 수행, 모집 시작/종료 상태 전환의 정확도와 신뢰성 향상
-
+   <img alt="image" src="https://github.com/user-attachments/assets/9667c341-eda6-4fb7-8f60-52b70d1372c1" width="700">
 ---
 
 ### 상품 관리 관련된 개선
