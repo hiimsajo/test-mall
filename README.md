@@ -40,7 +40,7 @@
 각 모듈은 Redis, Kafka를 통해 통신하며, Docker로 컨테이너화되어 CI/CD를 통해 자동 배포됩니다.
 <br>
 
-###🥽 적용 기술
+### 🥽 적용 기술
 
 **🔗Infrastructure**
 
