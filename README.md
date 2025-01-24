@@ -58,7 +58,7 @@
 
 
 <details>
-<summary><b>📦 적용 기술 상세보기</b></summary>
+<summary>**📦 적용 기술 상세보기**</summary>
 
 ### 💾 **데이터베이스 및 캐싱**
 1. **Redis**
@@ -91,7 +91,7 @@
 </details>
 
 <details>
-  <summary><b> 👉기술 스택 테이블 확인하기기 </summary>
+  <summary>**👉기술 스택 테이블 확인하기기**</summary>
 
 | **항목** | **설명** |
 | --- | --- |
@@ -123,15 +123,15 @@
   <summary>신청자 정보와 체험단 정보를 포함한 이벤트 메시지 발행 및 구독</summary>
   
   - 기존 단일 파티션, 단일 머신으로 요청량이 증가함에 따라 처리 오류율을 보임
-     - 이에 파티션 수를 늘리고, 머신 2대로 처리 성능을 개선
+     - 이에 **파티션 수를 늘리고, 머신 2대**로 처리 성능을 개선
   
   </details>
 
 <details>
   <summary> 사용자별 Slack Webhook을 통한 실시간 알림 발송 </summary>
   
-  - Kafka Consumer를 통한 체험단 상태 변경 이벤트(신청/당첨/낙첨/리뷰) 구독 및 처리
-     - 알림 발송 실패 시 자동 재시도 로직 구현 및 중복 메시지 검증을 통한 알림 무결성 보장
+  - **Kafka Consumer**를 통한 체험단 상태 변경 이벤트(신청/당첨/낙첨/리뷰) 구독 및 처리
+     - 알림 발송 **실패 시 자동 재시도** 로직 구현 및 중복 메시지 검증을 통한 알림 무결성 보장
       <img alt="image" src="https://github.com/user-attachments/assets/c0fad59f-3bce-4ff3-bf32-3f209fd2c40e" width="700">
     
 </details>
@@ -142,10 +142,10 @@
 
 ### Redis 캐싱 기반 사용자 정보 조회
 
-- TTL 주기를 짧게 갱신해서 TTI를 줄이고, 리소스 활용을 효율적으로 개선하여 사용자 조회 성능 향상
+- **TTL 주기를 짧게 갱신**해서 TTI를 줄이고, 리소스 활용을 효율적으로 개선하여 사용자 조회 성능 향상
 - 캐싱을 적용하여 데이터베이스에 직접 가지 않고 빠르게 조회 가능
 <details>
-  <summary> **캐싱 적용 후 응답시간이 458ms에서 40ms로 약 91.26% 감소** </summary>
+  <summary> 캐싱 적용 후 응답시간이 458ms에서 40ms로 **약 91.26% 감소** </summary>
   
   - 관련 내용: [👥사용자 조회 시 Redis 적용](https://www.notion.so/teamsparta/Redis-2b2b14a48c404da489b1dece8d11398c)
     
