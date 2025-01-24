@@ -302,7 +302,7 @@
 
 ## 📁 프로젝트 파일 구조
 
-1. **마이크로서비스** 아키텍처 구조<br>
+1. **마이크로서비스 아키텍처 구조**<br>
    프로젝트는 **Microservices Architecture와 DDD(Domain-Driven Design) 기반**의 Layered Architecture를 적용하여 구성되어 있습니다.
 ```text
 ├─ com.trillionares.tryit.*  // 각 마이크로서비스
@@ -322,7 +322,7 @@
 └─ prometheus              // 모니터링 시스템
 ```
 
-2. **계층형** 아키텍처 구조<br>
+2. **계층형 아키텍처 구조**<br>
    각 마이크로서비스는 **DDD 기반의 계층형** 아키텍처로 구성되어 있습니다.
 ``` text
 com.trillionares.tryit.[service-name]
