@@ -31,7 +31,7 @@
 
 ## 🏢 인프라 아키텍처 & 적용 기술
 
-### 아키텍처 설계도
+###🗺️ 아키텍처 설계도
 <img alt="" src="https://github.com/user-attachments/assets/7f469c41-4999-444f-94cf-96441c8f1e43"  width="800">
 
 
@@ -39,7 +39,7 @@
 각 모듈은 Redis, Kafka를 통해 통신하며, Docker로 컨테이너화되어 CI/CD를 통해 자동 배포됩니다.
 <br>
 
-### 적용 기술
+###🥽 적용 기술
 **🔗Infrastructure**
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"><img src="https://img.shields.io/badge/Amazon Web Services-232F3E?style=for-the-badge&logo=Amazon Web Services&logoColor=white"><img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white"><img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"><img src="https://img.shields.io/badge/Amazon ECS-FF9900?style=for-the-badge&logo=Amazon ECS&logoColor=white">
@@ -88,7 +88,7 @@
 </details>
 
 <details>
-  <summary><b> 👉기술 선택 이유 자세히 확인하기 </summary>
+  <summary><b> 👉기술 스택 테이블 확인하기기 </summary>
 
 | **항목** | **설명** |
 | --- | --- |
